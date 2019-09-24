@@ -38,10 +38,6 @@ namespace MVC {
             DisplayButton(false);
         }
 
-        /// <summary>
-        /// show/hide button
-        /// </summary>
-        /// <param name="value"></param>
         private void DisplayButton(bool value) {
             _nextSceneButton.gameObject.SetActive(value);
         }
@@ -55,6 +51,14 @@ namespace MVC {
         private void ShowNextScene() {
             if (_listener != null)
                 _listener.ShowNextScene();
+        }
+        
+        private void ShowFirstScene() {
+            if (_listener != null) {
+                _nextSceneButton.onClick.RemoveAllListeners();
+                _nextSceneButton.onClick.AddListener(ShowNextScene);
+                _listener.ShowFirstScene();
+            }
         }
     
         private void PlayerChoseAnswer(int answerId) {
@@ -77,6 +81,13 @@ namespace MVC {
             _characterManager.Hide(null);
             _backgroundManager.HideAll();
             DisplayButton(false);
+            _nextSceneButton.onClick.RemoveAllListeners();
+            _nextSceneButton.onClick.AddListener(ShowFirstScene);
+            Invoke(nameof(DisplayButton),_delay*2f);
+        }
+
+        public void Restart() {
+            
         }
 
         private void MoveCharacterOnScene(SceneData data) {

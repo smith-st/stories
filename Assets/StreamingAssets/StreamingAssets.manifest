@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 1116380338
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: background
+      Dependencies: {}
+    Info_1:
+      Name: character
+      Dependencies: {}
+    Info_2:
+      Name: dialog
+      Dependencies: {}
+    Info_3:
+      Name: scenario
+      Dependencies: {}
+    Info_4:
+      Name: music
+      Dependencies: {}

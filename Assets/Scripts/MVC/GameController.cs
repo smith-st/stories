@@ -32,6 +32,10 @@ namespace MVC {
 //            }
 
             _view.Init(this);
+            ShowFirstScene();
+        }
+
+        public void ShowFirstScene() {
             _currentScene = _model.FirstScene();
             ShowScene(_currentScene);
         }

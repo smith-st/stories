@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 2492884823
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6baee6e95d0c10ae6207050ba92b5a88
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3c09291fa0f4f5514d61bb7cab3800a7
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 91621c95e2f5a6c4bba430aca5e683dd, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ef6fa307e0d3cc94fb6d6e06000dbf62, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/Managers/CharacterManager.prefab
+Dependencies: []

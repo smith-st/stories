@@ -29,6 +29,7 @@ namespace View.Managers {
         }
 
         public void HideAll() {
+            _currentKey = "";
             foreach (var background in _backgrounds) {
                 if (background.Key == _currentKey) {
                     background.Image.DOColor(Color.clear, _speed);

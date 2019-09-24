@@ -95,12 +95,8 @@ namespace MVC {
          
         
         private void LoadBundles() {
-            string platform = "Windows";
-#if PLATFORM_ANDROID
-            platform = "Android";
-#endif
             foreach (var bundleName in _bundlesToLoad) {
-                var bundle = AssetBundle.LoadFromFile(Path.Combine(Application.streamingAssetsPath, platform, bundleName));
+                var bundle = AssetBundle.LoadFromFile(Path.Combine(Application.streamingAssetsPath, bundleName));
                 if (bundle == null) {
                     Debug.Log("Failed to load AssetBundle!");
                     continue;

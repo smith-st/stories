@@ -35,6 +35,7 @@ namespace Audio {
         
 
         public void Stop() {
+            _currentKey = "";
             _audioSource.Stop();
         }
     }

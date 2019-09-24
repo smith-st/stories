@@ -6,5 +6,6 @@ namespace MVC {
         void Init(IGameViewListener listener);
         void ShowScene(SceneData data);
         void FinalScene();
+        void Restart();
     }
 }

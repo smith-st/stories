@@ -14,7 +14,7 @@ namespace Tests
         public void ScenarioAnswers()
         {
            
-            var bundle = AssetBundle.LoadFromFile(Path.Combine(Application.streamingAssetsPath, "Windows", "scenario"));
+            var bundle = AssetBundle.LoadFromFile(Path.Combine(Application.streamingAssetsPath, "scenario"));
             if (bundle == null) {
                 Assert.Fail();
             }
