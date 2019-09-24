@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38ce80b6b70d40f2ae24a98583fc4c32, type: 3}
+  m_Name: music
+  m_EditorClassIdentifier: 
+  _musics:
+  - Key: life
+    Clip: {fileID: 8300000, guid: b7ec341beb6edf44ca185d387ce1acae, type: 3}
+  - Key: investigation
+    Clip: {fileID: 8300000, guid: a6ee3b378732133489ce3beb11e71634, type: 3}
+  - Key: romantic
+    Clip: {fileID: 8300000, guid: 4c330df98a649e04c88d934f53ed6057, type: 3}

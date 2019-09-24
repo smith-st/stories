@@ -1,0 +1,29 @@
+﻿key;background;music;character;emotion;message;next;answer_1;answer_1_out;answer_2;answer_2_out;answer_3;answer_3_out;answer_4;answer_4_out;answer_5;answer_5_out
+1;apartment;life;sam;neutral;Тук-тук! Есть кто-то дома!;;;;;;;;;;;
+2;apartment;life;player;sad;Я есть. Говори тише пожалуйста, голова болит;;;;;;;;;;;
+3;apartment;life;sam;happy;А что ты хотела после вчерашнего?;;;;;;;;;;;
+4;apartment;life;sam;angry;И вообще, почему ты еще в постели? Ты должна быть уже одета и накрашена;;;;;;;;;;;
+5;apartment;life;sam;neutral;Мы договаривались пойти в спа или в бар. Куда пойдем?;;Спа-салон;9;Бар;16;Остаться дома;6;;;;
+6;apartment;life;player;sad;Я лучше останусь дома. Мне очень плохо;;;;;;;;;;;
+7;apartment;life;sam;angry;Я так и знала что так будет!;;;;;;;;;;;
+8;apartment;life;narrator;;Сэм ушла громко хлопнув дверью;end;;;;;;;;;;
+9;apartment;life;player;neutral;Я хочу весь день провести в спа. Подожди минтуку, я оденусь;;;;;;;;;;;
+10;apartment;life;narrator;;Прошло 30 минут;;;;;;;;;;;
+11;apartment;life;player;happy;Я готова!;;;;;;;;;;;
+12;apartment;life;sam;angry;Я думала ты никогда оттуда не выйдешь! Пошли уже;;;;;;;;;;;
+13;beauty_salon;romantic;player;happy;После вчерашнего, это самое лучшее что может произойти со мной;;;;;;;;;;;
+14;beauty_salon;romantic;sam;happy;Это точно!;;;;;;;;;;;
+15;beauty_salon;romantic;narrator;;Девушки провели в спа салоне весь день;end;;;;;;;;;;
+16;apartment;life;player;happy;Надо поехать в бар, вчера мне понравился один бармен;;;;;;;;;;;
+17;apartment;life;sam;shocked;Это случайно не тот парень, что понравился мне?;;;;;;;;;;;
+18;apartment;life;player;suspicious;Вполне может быть;;;;;;;;;;;
+19;apartment;life;narrator;;Девушки отправились в бар;;;;;;;;;;;
+20;bar;investigation;sam;neutral;Смотри! Вон тот самый парень!;;;;;;;;;;;
+21;bar;investigation;player;angry;Не ори на весь бар! Пошли к нему, может он нас вспомнит;;;;;;;;;;;
+22;bar;investigation;jerry;happy;Сэм, Натали, рад вас снова видеть в баре;;;;;;;;;;;
+23;bar;investigation;jerry;neutral;Что будете пить?;;Вода;24;Молоко;24;Виски;24;Мартини;24;Ничего;24
+24;bar;investigation;sam;neutral;Мне как вчера пожалуйста;;;;;;;;;;;
+25;bar;investigation;jerry;happy;Две бутылки виски и пол лимона, если я не ошибаюсь?;;;;;;;;;;;
+26;bar;investigation;player;shocked;Сэм, придержи язык за зубами, пожалуйста;;;;;;;;;;;
+27;bar;investigation;player;neutral;Нам два мартини, пожалуйста;;;;;;;;;;;
+28;bar;investigation;narrator;;За приятной беседой с Джерри, девушки провели много времени;;;;;;;;;;;
